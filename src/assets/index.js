@@ -27,8 +27,8 @@ import rede from "./company/rede.png";
 import mirante from "./company/mirante.png";
 
 import carrent from "./carrent.png";
-import placar from "./placar.png";
-import Edu from "./+Edu.png";
+import placar from "./scoreboard.png";
+import Edu from "./edu.png";
 import jobit from "./jobit.png";
 import ecom from "./ecom.png";
 import tripguide from "./tripguide.png";
