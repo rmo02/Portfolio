@@ -12,7 +12,7 @@ import {
   Works,
 } from "./components";
 
-//projeto atualizado
+//projeto atual
 
 const App = () => {
   return (
