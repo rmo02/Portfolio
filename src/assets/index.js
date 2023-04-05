@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import flutter from "./tech/flutter.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,17 +21,25 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import michel from "./company/michel.png";
+import braid from "./company/braid.png";
+import rede from "./company/rede.png";
 import mirante from "./company/mirante.png";
 
 import carrent from "./carrent.png";
+import placar from "./placar.png";
+import Edu from "./+Edu.png";
 import jobit from "./jobit.png";
+import ecom from "./ecom.png";
 import tripguide from "./tripguide.png";
 
 export {
+  michel,
+  braid,
+  rede,
+  ecom,
+  Edu,
+  placar,
   logo,
   backend,
   creator,
@@ -41,7 +49,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  flutter,
   figma,
   git,
   html,
@@ -53,11 +61,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
   mirante,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,

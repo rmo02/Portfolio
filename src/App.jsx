@@ -8,8 +8,8 @@ import {
   Hero,
   Navbar,
   Tech,
-  Works,
   StarsCanvas,
+  Works,
 } from "./components";
 
 const App = () => {

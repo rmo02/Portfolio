@@ -14,16 +14,14 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
+    flutter,
     mirante,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    placar,
+    Edu,
+    ecom,
+    michel,
+    braid,
+    rede
   } from "../assets";
   
   export const navLinks = [
@@ -55,7 +53,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Content Creator",
+      title: "People Management",
       icon: creator,
     },
   ];
@@ -98,10 +96,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -110,12 +104,49 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "flutter",
+      icon: flutter,
     },
   ];
   
   const experiences = [
+    {
+      title: "lawyer intern",
+      company_name: "Braid Advogados Associados",
+      icon: braid,
+      iconBg: "#E6DEDD",
+      date: "Fev 2016 - Set 2019",
+      points: [
+        "Corporate Law.",
+        "Management, Team Leadership, Administrative Law",
+        "Public Law, civil Law, employment Law.",
+        "Microsoft Office."
+      ],
+    },
+    {
+      title: "lawyer",
+      company_name: "AFG Advogados Associados",
+      icon: michel,
+      iconBg: "#E6DEDD",
+      date: "Fev 2016 - Dez 2021",
+      points: [
+        "Corporate Law.",
+        "Management, Team Leadership, Administrative Law",
+        "Public Law, civil Law, employment Law.",
+        "Microsoft Office."
+      ],
+    },
+    {
+      title: "Administrative",
+      company_name: "Rede Sustentabildiade",
+      icon: rede,
+      iconBg: "#E6DEDD",
+      date: "Set 2020 - Nov 2020",
+      points: [
+        "Contracts.",
+        "Administrative organization."
+      ],
+    },
     {
       title: "React Js / Native Developer",
       company_name: "Grupo Mirante",
@@ -124,24 +155,24 @@ import {
       date: "Jan 2022 - present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Mirante",
-    //   icon: mirante,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2022 - present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Mobile Developer",
+      company_name: "Imirante - Portal",
+      icon: mirante,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - present",
+      points: [
+        "Developing and maintaining web applications using Flutter and other related technologies.",
+        "Collaborating with cross-functional teams including product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
 
   ];
   
@@ -149,7 +180,7 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      name: "Anonymous",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -157,7 +188,7 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+      name: "Anonymous",
       designation: "COO",
       company: "DEF Corp",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
@@ -165,7 +196,7 @@ import {
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+      name: "Anonymous",
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
@@ -174,67 +205,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "+Educação",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Educational platform to assist in educational development",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Expo",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Native Base",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: Edu,
+      source_code_link: "https://github.com/rmo02/maisEduV2",
+    },
+    {
+      name: "ScoreBoard",
+      description:
+        "Application to score points in matches.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Android",
+          color: "green-text-gradient",
+        }
+      ],
+      image: placar,
+      source_code_link: "https://play.google.com/store/apps/details?id=com.rmo02.placar",
+    },
+    {
+      name: "E-commerce Delivery",
+      description:
+        "Website for online sales.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "redux",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ecom,
+      source_code_link: "https://github.com/rmo02/RestaurantApp",
     },
   ];
   

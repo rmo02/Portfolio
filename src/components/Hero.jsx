@@ -19,7 +19,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText}`}>
             Hi, I'm <span className="text-[#915eff]">Ramon Maia</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-1 text-white-100`}>
             I'm a Mobile and Web developer <br className="sm:block hidden"/> passionate about challenges and <br className="sm:block hidden"/> good
             ideas. Training in Systems Information, <br className="sm:block hidden"/> currently working as a Web
             and <br className="sm:block hidden"/> Mobile Front-End developer.
@@ -40,7 +40,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-secondary mb-1 mt-5'
             />
             </div>
           </a>
