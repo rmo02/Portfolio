@@ -12,6 +12,8 @@ import {
   Works,
 } from "./components";
 
+//projeto atualizado
+
 const App = () => {
   return (
     <BrowserRouter>
